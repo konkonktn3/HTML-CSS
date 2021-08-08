@@ -711,7 +711,7 @@ ol ul {
 
 @media screen and (max-width: 767px){
 .desc-list .example-contents > li {
-    width: none ;
+    width: none !important;
 }}
 
 
