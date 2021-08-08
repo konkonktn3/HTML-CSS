@@ -694,6 +694,7 @@ h4 {
 
 
 .example-contents.contents-tidy {
+    display: inline-block;
     flex-wrap: wrap;
     width: none !important;
 }
