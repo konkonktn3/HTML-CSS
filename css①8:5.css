@@ -120,6 +120,7 @@ img {border: 0;
     display: inline-flex;
 }
 
+@media screen and (max-width: 1080px){
 .header-nav .header-nav-hamburger {
     cursor: pointer;
     display: block;
@@ -127,12 +128,14 @@ img {border: 0;
     width: 30px;
     height: 21px;
     z-index: 100;
-}
+}}
 
+@media screen and (max-width: 1080px){
 .header-nav .header-nav-hamburger-line:first-child {
     top: 0;
-}
+}}
 
+@media screen and (max-width: 1080px){
 .header-nav .header-nav-hamburger-line {
     position: absolute;
     top: 50%;
@@ -143,11 +146,12 @@ img {border: 0;
     transform: translate(0, -50%);
     border-radius: 10px;
     transition: top 0.2s, transform 0.2s, opacity 0.3s;
-}
+}}
 
+@media screen and (max-width: 1080px){
 .header-nav .header-nav-hamburger-line:last-child {
     top: 100%;
-}
+}}
 
 .header-nav .header-nav-list {
     top: 52px;
