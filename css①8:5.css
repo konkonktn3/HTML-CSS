@@ -120,10 +120,6 @@ img {border: 0;
     display: inline-flex;
 }
 
-nav {
-    display: block;
-}
-
 .header-nav-hamburger {
     display: none;
 }
