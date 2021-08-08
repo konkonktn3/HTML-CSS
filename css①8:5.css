@@ -93,11 +93,6 @@ a:-webkit-any-link {
     transition: opacity 0.2s;
 }}
 
-a {
-    color: #222;
-    text-decoration: none;
-}
-
 .header-logo > .header-logo-sp {
     display: none;
 }
