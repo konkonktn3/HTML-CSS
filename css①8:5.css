@@ -692,8 +692,10 @@ h4 {
     margin-top: 15px;
 }
 
+
 .example-contents.contents-tidy {
     flex-wrap: wrap;
+    width: none !important;
 }
 
 ol ul {
