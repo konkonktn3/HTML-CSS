@@ -32,11 +32,11 @@ body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4
          z-index: 10;
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px){
 .content-width {max-width: none;
                 padding-left: 20px;
                 padding-right: 20px;
-}
+}}
 
 .content-width {max-width: 1140px;
                 padding-left: 50px;
@@ -88,10 +88,11 @@ a:-webkit-any-link {
     justify-content: space-between;
 }
 
-@media screen and (min-width: 767px)
+@media screen and (min-width: 767px){
 .hover-opacity {
     transition: opacity 0.2s;
-}
+}}
+
 a {
     color: #222;
     text-decoration: none;
@@ -329,17 +330,17 @@ p {display: block;
 .link-button.no-subtitle {font-size: 16px;
 }
 
-@media screen and (min-width: 767px)
+@media screen and (min-width: 767px){
 a.link-button {
     color: #fff;
-}
+}}
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1024px){
 .top-hero-box .No1-notation {
     top: -168px;
     right: 0;
     left: -28px;
-}
+}}
 
 .top-hero-box .No1-notation {
     margin: 0;
@@ -370,12 +371,12 @@ a.link-button {
     padding: 4px;
 }
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1024px){
 .proviso p {
     background-color: rgba(255, 255, 255, .3);
     color: #000;
     padding: 4px;
-}
+}}
 
 p {
     line-height: 1.5;
@@ -397,51 +398,51 @@ p {
                       margin-bottom: 50px;
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px){
 .banner-for-students--sp {
     display: block;
     margin: 0 0 50px 5px;
-}
+}}
 
 .top-about .contents-tidy {align-items: center;
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px){
 .top-about-content {
     flex-direction: column;
-}
+}}
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1024px){
 .top-about-content {
     flex-direction: column;
     width: 100%;
-}
+}}
 
 .contents-tidy {
     display: flex;
     justify-content: space-between;
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px){
 .about-text, .top-about-button {
     width: 100%;
-}
+}}
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1024px){
 .about-text, .top-about-button {
     width: 100%;
-}
+}}
 
 .about-text {
     color: #fff;
     width: 53%;
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px){
 .about-text h2 {
     font-size: 26px;
     text-align: center;
-}
+}}
 
 .about-text h2 {font-size: 40px;
                 letter-spacing: 1px;
@@ -472,7 +473,7 @@ h2 {
 .pc-dn {display: none !important;
 }
 
-@media screen and (max-width: 1024px){}
+@media screen and (max-width: 1024px){
 .about-text + .top-about-button {
     margin-top: 40px;
     width: 250px;
@@ -488,10 +489,10 @@ h2 {
     margin-right: 10px;
 }
 
-@media screen and (min-width: 767px)
+@media screen and (min-width: 767px){
 .hover-opacity {
     transition: opacity 0.2s;
-}
+}}
 
 .link-button span:first-child {
     letter-spacing: 4px;
@@ -553,7 +554,7 @@ body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4
 .section-movie-pc {text-align: center;
 }
 
-iframe[Attributes Style] {
+iframe[Attributes] {
     width: 836px;
     height: 470px;
     border-top-width: 0px;
@@ -595,8 +596,7 @@ iframe {
 @media screen and (max-width: 767px){
 .desc-list .example-contents > li {
     width: unset !important;
-}
-}
+}}
 
 ol {
     display: block;
@@ -646,10 +646,10 @@ h3 {
     font-weight: bold;
 }
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .list-text .sp-dn {
     display: none;
-}
+}}
 
 .desc-list .example {
     background-color: #fff;
@@ -706,10 +706,10 @@ h4 {
     justify-content: space-between;
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px){
 li {width: 50%;
     height: 72px;
-}
+}}
 
 
 ol ul {
@@ -718,11 +718,11 @@ ol ul {
     margin-block-end: 0px;
 }
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .desc-list .example-contents > li {
     padding-left: 10px;
     padding-right: 10px;
-}
+}}
 
 .desc-list .example-contents > li {
     width: 25%;
@@ -776,28 +776,28 @@ ol ul {
     line-height: 1;
 }
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .desc-list .example.performance {
     padding: 30px;
-}
+}}
 
 .desc-list .example.performance {
     padding: 40px 70px;
 }
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .desc-list .example-list {
     margin: 0 -30px;
-}
+}}
 
 .desc-list .example-list {
     margin: 0 -60px;
 }
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .desc-list .example-list > li {
     padding: 0 30px;
-}
+}}
 
 .desc-list .example-list > li {
     padding: 0 60px;
@@ -810,10 +810,10 @@ ol ul {
     height: -webkit-fill-available;
 }
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .desc-list .example-list > li {
     padding: 0 30px;
-}
+}}
 
 .desc-list .list-text {
     font-size: 16px;
@@ -855,7 +855,7 @@ ol ul {
     width: 100%;
 }
 
-img[Attributes Style] {
+img[Attributes style] {
 }
 
 .engineer-profile {
@@ -1022,9 +1022,9 @@ on-sub-heading {
     font-size: 12px;
     color: #999;
 }
-@media screen and (min-width: 767px)
+@media screen and (min-width: 767px){
 .hover-text-color {transition: 0.2s;
-}
+}}
 
 .course-link::after {
     content: '';
@@ -1049,15 +1049,15 @@ on-sub-heading {
                  margin-right: auto;
 }
 
-@media screen and (min-width: 767px)
+@media screen and (min-width: 767px){
 a.link-button {
     color: #fff;
-}
+}}
 
-@media screen and (min-width: 767px)
+@media screen and (min-width: 767px){
 .hover-opacity {
     transition: opacity 0.2s;
-}
+}}
 
 .link-button span:last-child {font-size: 14px;
 }
@@ -1070,13 +1070,13 @@ a.link-button {
                padding-bottom: 80px;
 }
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1024px){
 .message-title {
     font-size: 32px;
     background: -webkit-linear-gradient(0deg, #ff802c, #f79214);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+}}
 
 .message-title {
     display: inline-block;
@@ -1097,26 +1097,27 @@ a.link-button {
 .message-contents.contents-tidy {align-items: center;
 }
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1024px){
 .message-contents {
     flex-direction: column;
     position: relative;
     background-color: #fff;
     padding: 45px 40px 40px;
-}
+}}
 
 .message-contents {
     margin-top: -20px;
     position: relative;
 }
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1024px){
 .message-text {
     padding: 0;
     margin-right: 0;
     margin-top: 30px;
     order: 2;
-}
+}}
+
 .message-text {
     background-color: #fff;
     padding: 40px 150px 40px 40px;
@@ -1136,10 +1137,10 @@ html {-webkit-text-size-adjust: 100%;
 .message-text p + p {margin-top: 40px;
 }
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1024px){
 .message-thumbnail {
     order: 1;
-}
+}}
 
 .message-thumbnail {position: relative;
 }
@@ -1156,32 +1157,32 @@ html {-webkit-text-size-adjust: 100%;
 .message-thumbnail p span {font-size: 24px;
 }
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1024px){
 .message-thumbnail > img {
     width: 100%;
-}
+}}
 
-@media screen and (max-width: 840px)
+@media screen and (max-width: 840px){
 .interview-list {
     padding-left: 80px;
     padding-right: 80px;
-}
+}}
 
-@media screen and (max-width: 1070px)
+@media screen and (max-width: 1070px){
 .interview-list {
     display: block;
     margin-left: 0;
     margin-right: 0;
     padding-left: 160px;
     padding-right: 160px;
-}
+}}
 
-@media screen and (max-width: 1070px)
+@media screen and (max-width: 1070px){
 .interview-list > li {
     padding-left: 0;
     padding-right: 0;
     width: 100%;
-}
+}}
 
 .interview-list > li {
     padding-left: 20px;
@@ -1207,10 +1208,10 @@ html {-webkit-text-size-adjust: 100%;
     left: 0;
 }
 
-@media screen and (min-width: 767px)
+@media screen and (min-width: 767px){
 .hover-scale {
     transition: transform 0.2s;
-}
+}}
 
 .pc-dn {
     display: none !important;
@@ -1248,19 +1249,19 @@ html {-webkit-text-size-adjust: 100%;
     line-height: 1.8;
 }
 
-@media screen and (max-width: 1070px)
+@media screen and (max-width: 1070px){
 .interview-list > li + li {
     margin-top: 20px;
     padding-top: 30px;
     border-top: solid 1px #efefef;
-}
+}}
 
-@media screen and (max-width: 1070px)
+@media screen and (max-width: 1070px){
 .interview-list > li {
     padding-left: 0;
     padding-right: 0;
     width: 100%;
-}
+}}
 
 .interview-media .interview-thumbnail-titlebox .interview-thumbnail-subtitle {
     font-size: 16px;
@@ -1271,10 +1272,10 @@ html {-webkit-text-size-adjust: 100%;
     border-top: 1px solid #fff;
 }
 
-@media screen and (min-width: 767px)
+@media screen and (min-width: 767px){
 a:hover .hover-text-color, .hover-text-color:hover {
     color: #f79314;
-}
+}}
 
 .section-button {
     margin-top: 60px;
@@ -1283,19 +1284,19 @@ a:hover .hover-text-color, .hover-text-color:hover {
     margin-right: auto;
 }
 
-@media screen and (min-width: 767px)
+@media screen and (min-width: 767px){
 a.link-button {/* color: #fff; */
-}
+}}
 
-@media screen and (min-width: 767px)
+@media screen and (min-width: 767px){
 .hover-opacity {
     transition: opacity 0.2s;
-}
+}}
 
-@media screen and (min-width: 767px)
+@media screen and (min-width: 767px){
 a.link-button {
     /* color: #fff; */
-}
+}}
 
 .main-section.top-service, .main-section.top-works {
     background-color: #fcfaf5;
@@ -1440,10 +1441,10 @@ address {font-style: normal;
     max-width: 280px;
 }
 
-@media screen and (min-width: 767px)
+@media screen and (min-width: 767px){
 .hover-opacity {
     transition: opacity 0.2s;
-}
+}}
 
 .footer-info .footer-logo > img {
     width: 100%;
@@ -1472,10 +1473,10 @@ address {font-style: normal;
     max-width: 60px;
 }
 
-@media screen and (min-width: 767px)
+@media screen and (min-width: 767px){
 .hover-opacity {
     transition: opacity 0.2s;
-}
+}}
 
 .footer-info .footer-social-item > img {
     width: 100%;
@@ -1491,10 +1492,10 @@ address {font-style: normal;
     max-width: 60px;
 }
 
-@media screen and (min-width: 767px)
+@media screen and (min-width: 767px){
 .hover-opacity {
     transition: opacity 0.2s;
-}
+}}
 
 .site-footer .site-footer-main + .site-footer-sub {
     margin-top: 60px;
