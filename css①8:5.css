@@ -694,9 +694,7 @@ h4 {
 
 
 .example-contents.contents-tidy {
-    display: inline-block;
     flex-wrap: wrap;
-    width: none !important;
 }
 
 ol ul {
@@ -710,6 +708,12 @@ ol ul {
     padding-left: 10px;
     padding-right: 10px;
 }}
+
+@media screen and (max-width: 767px){
+.desc-list .example-contents > li {
+    width: none ;
+}}
+
 
 .desc-list .example-contents > li {
     width: 25%;
