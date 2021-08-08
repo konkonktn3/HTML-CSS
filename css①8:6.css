@@ -69,13 +69,13 @@ a:-webkit-any-link {
     position: absolute;
 }
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .site-header {
     position: fixed;
     background-color: #fff;
     z-index: 10;
     width: 100%;
-}
+}}
 
 .header-width {
     max-width: 100%;
