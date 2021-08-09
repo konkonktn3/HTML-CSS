@@ -203,11 +203,13 @@ ader-nav .header-nav-item > span:first-child {
     text-align: center;
 }
 
+@media screen and (max-width: 1080px){
 .header-nav .header-nav-item > span:last-child {
     font-size: 12px;
     margin-top: 10px;
+    color: #f79314;
     letter-spacing: 2px;
-}
+}}
 
 .header-nav .header-nav-item > span:last-child {
     font-size: 10px;
