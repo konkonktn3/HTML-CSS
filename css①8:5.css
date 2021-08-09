@@ -84,11 +84,14 @@ a:-webkit-any-link {
     transition: opacity 0.2s;
 }}
 
-a {
-    color: #222;
-    text-decoration: none;
+a {color: #222;
+   text-decoration: none;
 }
 
+@media screen and (min-width: 767px){
+a {color: #222;
+   text-decoration:none;
+}}
 
 
 .header-logo > .header-logo-sp {
