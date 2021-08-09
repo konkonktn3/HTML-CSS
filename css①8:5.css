@@ -973,15 +973,6 @@ on-sub-heading {
 .course-contents > div {margin-top: 20px;
 }
 
-.course-contents > div p {
-    display: inline-block;
-    font-weight: 400;
-    color: #fff;
-    background: linear-gradient(90deg, #212121, #444);
-    padding: 2px 20px;
-    border-radius: 20px;
-}
-
 .conditions-list {
     margin-top: 7px;
     padding-bottom: 20px;
