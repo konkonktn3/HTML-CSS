@@ -697,12 +697,6 @@ ol ul {
     padding-right: 10px;
 }}
 
-@media screen and (max-width: 767px){
-.desc-list .example-contents > li {
-    width: none !important;
-}}
-
-
 .desc-list .example-contents > li {
     width: 25%;
     padding-left: 20px;
