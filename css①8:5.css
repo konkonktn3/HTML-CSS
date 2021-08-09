@@ -54,8 +54,8 @@ body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4
     display: block;
 }
 
-a {color: #222;
-text-decoration: none;
+a {color: #222 important!;
+text-decoration: none important!;
 }
 
 a:-webkit-any-link {
