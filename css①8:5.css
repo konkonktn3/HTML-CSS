@@ -148,7 +148,7 @@ img {border: 0;
     top: 52px;
 }}
 
-@media screen and (min-width: 767px){
+@media screen and (max-width: 1080px){
 .header-nav .header-nav-list {
     overflow-y: scroll;
     position: fixed;
