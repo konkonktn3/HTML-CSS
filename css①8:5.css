@@ -83,11 +83,6 @@ a:-webkit-any-link {
     position: relative;
 }
 
-.contents-tidy {
-    display: flex;
-    justify-content: space-between;
-}
-
 @media screen and (min-width: 767px){
 .hover-opacity {
     transition: opacity 0.2s;
@@ -165,10 +160,6 @@ img {border: 0;
 }
 
 .header-nav-list.contents-tidy {align-items: center;
-}
-
-.contents-tidy {display: flex;
-                justify-content: space-between;
 }
 
 ul, ol {list-style: none;
@@ -413,11 +404,6 @@ p {
     flex-direction: column;
     width: 100%;
 }}
-
-.contents-tidy {
-    display: flex;
-    justify-content: space-between;
-}
 
 @media screen and (max-width: 767px){
 .about-text, .top-about-button {
