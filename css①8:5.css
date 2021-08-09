@@ -110,6 +110,7 @@ img {border: 0;
     display: inline-flex;
 }
 
+@media screen and (min-width: 767px){
 .header-nav .header-nav-hamburger {
     cursor: pointer;
     display: block;
@@ -117,12 +118,11 @@ img {border: 0;
     width: 30px;
     height: 21px;
     z-index: 100;
-}
+}}
 
 .header-nav .header-nav-hamburger-line:first-child {
     top: 0;
 }
-
 
 .header-nav .header-nav-hamburger-line {
     position: absolute;
@@ -144,6 +144,7 @@ img {border: 0;
     top: 52px;
 }
 
+@media screen and (min-width: 767px){
 .header-nav .header-nav-list {
     overflow-y: scroll;
     position: fixed;
@@ -157,7 +158,7 @@ img {border: 0;
     z-index: 99;
     background-color: rgba(0, 0, 0, 0.8);
     -webkit-overflow-scrolling: touch;
-}
+}}
 
 .header-nav-list.contents-tidy {align-items: center;
 }
